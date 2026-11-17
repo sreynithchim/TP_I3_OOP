@@ -9,7 +9,7 @@ class LuckyNumberGame:
     def get_result(self):
         result = self.get_next_number()
         return result
-
+"""Note : User will nerver win the game because the next number is always the input plus one."""
 while True:
     try:
         number = int(input("Please enter an Number : "))
